@@ -8,14 +8,14 @@ import { v4 as uuidv4 } from 'uuid';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const app = express();
-const cors = require('cors');
-const PORT = process.env.PORT || 3001;
+  const app = express();
+  const cors = require('cors');
+  const PORT = process.env.PORT || 3001;
 
-// Middleware
-app.use(cors());
-app.use(express.json());
-app.use(cors());
+  // Middleware
+  app.use(cors());
+  app.use(express.json());
+
 
 // Data storage functions
 const getDataPath = (filename) => join(__dirname, 'data', filename);
