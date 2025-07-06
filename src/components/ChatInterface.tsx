@@ -6,6 +6,8 @@ import MenuCard from './MenuCard';
 import OrderSummary from './OrderSummary';
 import NearbyRestaurantCard from './NearbyRestaurantCard';
 import ReservationCard from './ReservationCard';
+const BASE_URL = import.meta.env.VITE_API_URL || '';
+
 
 const ChatInterface: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
@@ -82,7 +84,7 @@ const ChatInterface: React.FC = () => {
       setMessages(prev => [...prev, botMessage]);
     } else {
       // Default chat response
-      const response = await fetch('/api/chat', {
+      const response = await fetch(`${BASE_URL}/api/restaurants`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -104,7 +106,7 @@ const ChatInterface: React.FC = () => {
 
   const handleReservationRequest = async () => {
     try {
-      const response = await fetch('/api/restaurants');
+      const response = await fetch(`${BASE_URL}/api/restaurants`);
       const restaurants: Restaurant[] = await response.json();
 
       // Generate random available seats for each restaurant (8-20 seats)
@@ -140,7 +142,7 @@ const ChatInterface: React.FC = () => {
 
   const handleNearbyRestaurants = async () => {
     try {
-      const response = await fetch('/api/restaurants');
+      const response = await fetch(`${BASE_URL}/api/restaurants`);
       const restaurants: Restaurant[] = await response.json();
 
       const botMessage: ChatMessage = {
@@ -159,7 +161,7 @@ const ChatInterface: React.FC = () => {
 
   const handleRestaurantSearch = async (query: string) => {
     try {
-      const response = await fetch('/api/restaurants');
+      const response = await fetch(`${BASE_URL}/api/restaurants`);
       const restaurants: Restaurant[] = await response.json();
 
       const botMessage: ChatMessage = {
@@ -178,7 +180,7 @@ const ChatInterface: React.FC = () => {
 
   const handleRestaurantSelect = async (restaurant: Restaurant) => {
     try {
-      const response = await fetch(`/api/restaurants/${restaurant.id}/menu`);
+      const response = await fetch(`${BASE_URL}/api/restaurants/${restaurant.id}/menu`);
       const menu: MenuItem[] = await response.json();
 
       const botMessage: ChatMessage = {
