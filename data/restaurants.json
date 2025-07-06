@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Bella Vista Italian",
+    "cuisine": "Italian",
+    "location": "Downtown",
+    "priceRange": "₹₹₹",
+    "rating": 4.8,
+    "image": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Authentic Italian cuisine with fresh pasta and wood-fired pizzas",
+    "phone": "(555) 123-4567",
+    "address": "123 Main St, Downtown",
+    "hours": "Mon-Sun: 5:00 PM - 11:00 PM",
+    "features": [
+      "Outdoor Seating",
+      "Wine Bar",
+      "Romantic"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Tokyo Sushi Bar",
+    "cuisine": "Japanese",
+    "location": "Midtown",
+    "priceRange": "₹₹₹₹",
+    "rating": 4.9,
+    "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Premium sushi and Japanese cuisine by master chefs",
+    "phone": "(555) 234-5678",
+    "address": "456 Oak Ave, Midtown",
+    "hours": "Tue-Sun: 6:00 PM - 12:00 AM",
+    "features": [
+      "Omakase",
+      "Sake Bar",
+      "Chef's Table"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "The Green Garden",
+    "cuisine": "Vegetarian",
+    "location": "Uptown",
+    "priceRange": "₹₹",
+    "rating": 4.6,
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Fresh, organic vegetarian and vegan dishes",
+    "phone": "(555) 345-6789",
+    "address": "789 Pine St, Uptown",
+    "hours": "Mon-Sun: 11:00 AM - 10:00 PM",
+    "features": [
+      "Organic",
+      "Vegan Options",
+      "Healthy"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Smoky BBQ House",
+    "cuisine": "BBQ",
+    "location": "Westside",
+    "priceRange": "₹₹",
+    "rating": 4.7,
+    "image": "https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Authentic BBQ with house-made sauces and sides",
+    "phone": "(555) 456-7890",
+    "address": "321 Elm St, Westside",
+    "hours": "Mon-Sun: 12:00 PM - 10:00 PM",
+    "features": [
+      "Takeout",
+      "Family Friendly",
+      "Casual"
+    ]
+  }
+]

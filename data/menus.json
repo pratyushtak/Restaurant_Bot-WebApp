@@ -1,0 +1,106 @@
+{
+  "1": [
+    {
+      "id": "1",
+      "name": "Margherita Pizza",
+      "price": 180.99,
+      "category": "Pizza",
+      "description": "Fresh mozzarella, tomato sauce, basil",
+      "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "2",
+      "name": "Spaghetti Carbonara",
+      "price": 220.99,
+      "category": "Pasta",
+      "description": "Pancetta, egg, pecorino romano, black pepper",
+      "image": "https://images.pexels.com/photos/4518843/pexels-photo-4518843.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "3",
+      "name": "Tiramisu",
+      "price": 80.99,
+      "category": "Dessert",
+      "description": "Classic Italian dessert with mascarpone",
+      "image": "https://images.pexels.com/photos/6074893/pexels-photo-6074893.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "2": [
+    {
+      "id": "4",
+      "name": "Omakase Set",
+      "price": 850,
+      "category": "Sushi",
+      "description": "Chef's choice of 10 premium sushi pieces",
+      "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "5",
+      "name": "Chirashi Bowl",
+      "price": 350,
+      "category": "Sashimi",
+      "description": "Assorted fresh sashimi over sushi rice",
+      "image": "https://images.pexels.com/photos/248444/pexels-photo-248444.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "6",
+      "name": "Miso Soup",
+      "price": 600,
+      "category": "Soup",
+      "description": "Traditional miso soup with tofu and seaweed",
+      "image": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "3": [
+    {
+      "id": "7",
+      "name": "Buddha Bowl",
+      "price": 199,
+      "category": "Bowls",
+      "description": "Quinoa, roasted vegetables, tahini dressing",
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "8",
+      "name": "Avocado Toast",
+      "price": 199,
+      "category": "Breakfast",
+      "description": "Multigrain bread, avocado, hemp seeds",
+      "image": "https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "9",
+      "name": "Green Smoothie",
+      "price": 899,
+      "category": "Drinks",
+      "description": "Spinach, banana, mango, coconut water",
+      "image": "https://images.pexels.com/photos/616833/pexels-photo-616833.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "4": [
+    {
+      "id": "10",
+      "name": "Brisket Platter",
+      "price": 299,
+      "category": "BBQ",
+      "description": "Slow-smoked brisket with two sides",
+      "image": "https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "11",
+      "name": "Pulled Pork Sandwich",
+      "price": 199,
+      "category": "Sandwiches",
+      "description": "House-made BBQ sauce, coleslaw, brioche bun",
+      "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": "12",
+      "name": "Mac & Cheese",
+      "price": 89,
+      "category": "Sides",
+      "description": "Creamy four-cheese blend with breadcrumbs",
+      "image": "https://images.pexels.com/photos/14737/pexels-photo-14737.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ]
+}
