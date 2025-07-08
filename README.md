@@ -8,9 +8,9 @@ A smart and interactive Restaurant Bot web application that allows users to:
 
 This bot is designed to understand natural language prompts such as:
 
-- "Please give restaurant near me"
+- "Restaurants near me"
 - "I want to order, please give restaurant name"
-- "I want to make a reservation for restaurant nearby"
+- "I want to make reservation"
 
 ---
 
