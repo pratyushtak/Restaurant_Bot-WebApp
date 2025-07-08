@@ -1,4 +1,3 @@
-
 # 🤖 Restaurant Bot WebApp
 
 A smart and interactive Restaurant Bot web application that allows users to:
@@ -17,11 +16,17 @@ This bot is designed to understand natural language prompts such as:
 
 ## ✨ Features
 
-- 💬 Conversational user experience
-- 🛒 Add multiple food items to a cart and place orders
-- 📅 Book tables by specifying restaurant and time
-- 📍 Get restaurant suggestions based on location-like prompts
-- 🧪 Health check endpoint at `/api/health`
+- 💬 Conversational user experience  
+- 🛒 Add multiple food items to a cart and place orders  
+- 📅 Book tables by specifying restaurant and time  
+- 📍 Get restaurant suggestions based on location-like prompts  
+- 🧪 Health check endpoint at `/api/health`  
+
+---
+
+## 🌐 Live Demo
+
+👉 [Visit the Live Website](https://restaurant-bot-webapp-1.onrender.com)
 
 ---
 
@@ -37,10 +42,10 @@ This bot is designed to understand natural language prompts such as:
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React + Vite + Tailwind CSS
-- **Backend**: Node.js + Express
-- **Storage**: JSON file (can be extended to MongoDB or SQL)
-- **API Communication**: RESTful endpoints
+- **Frontend**: React + Vite + Tailwind CSS  
+- **Backend**: Node.js + Express  
+- **Storage**: JSON file (can be extended to MongoDB or SQL)  
+- **API Communication**: RESTful endpoints  
 
 ---
 
@@ -51,36 +56,31 @@ This bot is designed to understand natural language prompts such as:
 ```bash
 git clone https://github.com/pratyushtak/Restaurant_Bot-WebApp.git
 cd Restaurant_Bot-WebApp
-```
-
-### 2. Install Dependencies
-
-```bash
+2. Install Dependencies
+bash
+Copy
+Edit
 npm install
-```
-
-### 3. Run Backend Server
-
-```bash
+3. Run Backend Server
+bash
+Copy
+Edit
 node server.js
-```
+Server runs at: http://localhost:3001
 
-- Server runs at: `http://localhost:3001`
-- Health check: `http://localhost:3001/api/health`
+Health check: http://localhost:3001/api/health
 
-### 4. Run Frontend App
-
-```bash
+4. Run Frontend App
+bash
+Copy
+Edit
 npm run dev
-```
+Frontend runs at: http://localhost:5173
 
-- Frontend runs at: `http://localhost:5173`
-
----
-
-## 📁 Project Structure
-
-```
+📁 Project Structure
+php
+Copy
+Edit
 Restaurant_Bot-WebApp/
 ├── data/
 │   └── restaurants.json       # Restaurant database
@@ -94,22 +94,17 @@ Restaurant_Bot-WebApp/
 ├── tailwind.config.js         # Tailwind CSS configuration
 ├── vite.config.js             # Vite bundler configuration
 └── README.md                  # You're here!
-```
+📌 To-Do / Future Enhancements
+ Add real-time geolocation API for more accurate nearby results
 
----
+ Integrate payment gateway (e.g., Razorpay, Stripe)
 
-## 📌 To-Do / Future Enhancements
+ Add user authentication and admin dashboard
 
-- [ ] Add real-time geolocation API for more accurate nearby results
-- [ ] Integrate payment gateway (e.g., Razorpay, Stripe)
-- [ ] Add user authentication and admin dashboard
-- [ ] Expand data source to real-time restaurant APIs (like Zomato/Swiggy)
+ Expand data source to real-time restaurant APIs (like Zomato/Swiggy)
 
----
+📞 Contact
+Created with ❤️ by Pratyush Tak
+📫 GitHub: @pratyushtak
 
-## 📞 Contact
-
-Created with ❤️ by **Pratyush Tak**  
-📫 GitHub: [@pratyushtak](https://github.com/pratyushtak)
-
-> This project was built as part of a web development learning journey and can be extended into a full-scale food delivery or restaurant management platform.
+This project was built as part of a web development learning journey and can be extended into a full-scale food delivery or restaurant management platform.
