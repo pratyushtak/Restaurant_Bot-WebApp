@@ -34,9 +34,9 @@ This bot is designed to understand natural language prompts such as:
 
 | Feature        | User Prompt                                               |
 |----------------|------------------------------------------------------------|
-| Nearby Search  | `Please give restaurant near me`                          |
+| Nearby Search  | `Restaurants near me`                          |
 | Order Food     | `I want to order, please give restaurant name`            |
-| Reservation    | `I want to make a reservation for restaurant nearby`      |
+| Reservation    | `I want to make reservation`      |
 
 ---
 
